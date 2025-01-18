@@ -1,12 +1,14 @@
 import sys
 import PyQt5
-from PyQt5.QtWidgets import QApplication, QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
 
 class MainWindow(QMainWindow):
     def __int__(self):
         super().__init__()
         
-        
+class MainWindow(QPushButton):
+    def __int__(self):
+        super().__init__()        
 def main():
     pass
 
