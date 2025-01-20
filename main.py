@@ -13,6 +13,8 @@ def main():
     window = QMainWindow()
     window.show()
     sys.exit(app.exec_())
+    
+def other()    
 
 if __name__ == "__main__":
     main()
