@@ -14,6 +14,11 @@ def main():
     window.show()
     sys.exit(app.exec_())
        
-
+def main():
+    app = QApplication(sys.argv)
+    window = QPushButton()
+    window.show()
+    sys.exit(app.exec_())
+    
 if __name__ == "__main__":
     main()
